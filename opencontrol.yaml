@@ -1,0 +1,8 @@
+schema_version: "1.0.0"
+name: NIST SP 800-171r1 Standards
+metadata:
+  description: "NIST Special Publication 800-171 Revision 1 Standards"
+  maintainers:
+    - joshtauberer@govready.com
+standards:
+  - ./NIST-800-171r1.yaml

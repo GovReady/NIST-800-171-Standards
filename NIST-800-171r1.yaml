@@ -1,0 +1,553 @@
+3.1.1:
+  family: 3.1 Access Control
+  name: 3.1.1
+  description: Limit system access to authorized users, processes acting on behalf
+    of authorized users, or devices (including other systems).
+3.1.2:
+  family: 3.1 Access Control
+  name: 3.1.2
+  description: Limit system access to the types of transactions and functions that
+    authorized users are permitted to execute.
+3.1.3:
+  family: 3.1 Access Control
+  name: 3.1.3
+  description: Control the flow of CUI in accordance with approved authorizations.
+3.1.4:
+  family: 3.1 Access Control
+  name: 3.1.4
+  description: Separate the duties of individuals to reduce the risk of malevolent
+    activity without collusion.
+3.1.5:
+  family: 3.1 Access Control
+  name: 3.1.5
+  description: Employ the principle of least privilege, including for specific security
+    functions and privileged accounts.
+3.1.6:
+  family: 3.1 Access Control
+  name: 3.1.6
+  description: Use non-privileged accounts or roles when accessing nonsecurity functions.
+3.1.7:
+  family: 3.1 Access Control
+  name: 3.1.7
+  description: Prevent non-privileged users from executing privileged functions and
+    audit the execution of such functions.
+3.1.8:
+  family: 3.1 Access Control
+  name: 3.1.8
+  description: Limit unsuccessful logon attempts.
+3.1.9:
+  family: 3.1 Access Control
+  name: 3.1.9
+  description: Provide privacy and security notices consistent with applicable CUI
+    rules.
+3.1.10:
+  family: 3.1 Access Control
+  name: 3.1.10
+  description: Use session lock with pattern-hiding displays to prevent access and
+    viewing of data after period of inactivity.
+3.1.11:
+  family: 3.1 Access Control
+  name: 3.1.11
+  description: Terminate (automatically) a user session after a defined condition.
+3.1.12:
+  family: 3.1 Access Control
+  name: 3.1.12
+  description: Monitor and control remote access sessions.
+3.1.13:
+  family: 3.1 Access Control
+  name: 3.1.13
+  description: Employ cryptographic mechanisms to protect the confidentiality of remote
+    access sessions.
+3.1.14:
+  family: 3.1 Access Control
+  name: 3.1.14
+  description: Route remote access via managed access control points.
+3.1.15:
+  family: 3.1 Access Control
+  name: 3.1.15
+  description: Authorize remote execution of privileged commands and remote access
+    to security-relevant information.
+3.1.16:
+  family: 3.1 Access Control
+  name: 3.1.16
+  description: Authorize wireless access prior to allowing such connections.
+3.1.17:
+  family: 3.1 Access Control
+  name: 3.1.17
+  description: Protect wireless access using authentication and encryption.
+3.1.18:
+  family: 3.1 Access Control
+  name: 3.1.18
+  description: Control connection of mobile devices.
+3.1.19:
+  family: 3.1 Access Control
+  name: 3.1.19
+  description: 'Encrypt CUI on mobile devices and mobile computing platforms. [Footnote:
+    Mobile devices and mobile computing platforms include, for example, smartphones,
+    tablets, E-readers, and notebook computers.]'
+3.1.20:
+  family: 3.1 Access Control
+  name: 3.1.20
+  description: Verify and control/limit connections to and use of external systems.
+3.1.21:
+  family: 3.1 Access Control
+  name: 3.1.21
+  description: Limit use of organizational portable storage devices on external systems.
+3.1.22:
+  family: 3.1 Access Control
+  name: 3.1.22
+  description: Control CUI posted or processed on publicly accessible systems.
+3.2.1:
+  family: 3.2 Awareness and Training
+  name: 3.2.1
+  description: Ensure that managers, systems administrators, and users of organizational
+    systems are made aware of the security risks associated with their activities
+    and of the applicable policies, standards, and procedures related to the security
+    of those systems.
+3.2.2:
+  family: 3.2 Awareness and Training
+  name: 3.2.2
+  description: Ensure that organizational personnel are adequately trained to carry
+    out their assigned information security-related duties and responsibilities.
+3.2.3:
+  family: 3.2 Awareness and Training
+  name: 3.2.3
+  description: Provide security awareness training on recognizing and reporting potential
+    indicators of insider threat.
+3.3.1:
+  family: 3.3 Audit and Accountability
+  name: 3.3.1
+  description: Create, protect, and retain system audit records to the extent needed
+    to enable the monitoring, analysis, investigation, and reporting of unlawful,
+    unauthorized, or inappropriate system activity.
+3.3.2:
+  family: 3.3 Audit and Accountability
+  name: 3.3.2
+  description: Ensure that the actions of individual system users can be uniquely
+    traced to those users so they can be held accountable for their actions.
+3.3.3:
+  family: 3.3 Audit and Accountability
+  name: 3.3.3
+  description: Review and update audited events.
+3.3.4:
+  family: 3.3 Audit and Accountability
+  name: 3.3.4
+  description: Alert in the event of an audit process failure.
+3.3.5:
+  family: 3.3 Audit and Accountability
+  name: 3.3.5
+  description: Correlate audit review, analysis, and reporting processes for investigation
+    and response to indications of inappropriate, suspicious, or unusual activity.
+3.3.6:
+  family: 3.3 Audit and Accountability
+  name: 3.3.6
+  description: Provide audit reduction and report generation to support on-demand
+    analysis and reporting.
+3.3.7:
+  family: 3.3 Audit and Accountability
+  name: 3.3.7
+  description: Provide a system capability that compares and synchronizes internal
+    system clocks with an authoritative source to generate time stamps for audit records.
+3.3.8:
+  family: 3.3 Audit and Accountability
+  name: 3.3.8
+  description: Protect audit information and audit tools from unauthorized access,
+    modification, and deletion.
+3.3.9:
+  family: 3.3 Audit and Accountability
+  name: 3.3.9
+  description: Limit management of audit functionality to a subset of privileged users.
+3.4.1:
+  family: 3.4 Configuration Management
+  name: 3.4.1
+  description: Establish and maintain baseline configurations and inventories of organizational
+    systems (including hardware, software, firmware, and documentation) throughout
+    the respective system development life cycles.
+3.4.2:
+  family: 3.4 Configuration Management
+  name: 3.4.2
+  description: Establish and enforce security configuration settings for information
+    technology products employed in organizational systems.
+3.4.3:
+  family: 3.4 Configuration Management
+  name: 3.4.3
+  description: Track, review, approve/disapprove, and audit changes to organizational
+    systems.
+3.4.4:
+  family: 3.4 Configuration Management
+  name: 3.4.4
+  description: Analyze the security impact of changes prior to implementation.
+3.4.5:
+  family: 3.4 Configuration Management
+  name: 3.4.5
+  description: Define, document, approve, and enforce physical and logical access
+    restrictions associated with changes to organizational systems.
+3.4.6:
+  family: 3.4 Configuration Management
+  name: 3.4.6
+  description: Employ the principle of least functionality by configuring organizational
+    systems to provide only essential capabilities.
+3.4.7:
+  family: 3.4 Configuration Management
+  name: 3.4.7
+  description: Restrict, disable, and prevent the use of nonessential programs, functions,
+    ports, protocols, and services.
+3.4.8:
+  family: 3.4 Configuration Management
+  name: 3.4.8
+  description: Apply deny-by-exception (blacklist) policy to prevent the use of unauthorized
+    software or denyall, permit-by-exception (whitelisting) policy to allow the execution
+    of authorized software.
+3.4.9:
+  family: 3.4 Configuration Management
+  name: 3.4.9
+  description: Control and monitor user-installed software.
+3.5.1:
+  family: 3.5 Identification and Authentication
+  name: 3.5.1
+  description: Identify system users, processes acting on behalf of users, or devices.
+3.5.2:
+  family: 3.5 Identification and Authentication
+  name: 3.5.2
+  description: Authenticate (or verify) the identities of those users, processes,
+    or devices, as a prerequisite to allowing access to organizational systems.
+3.5.3:
+  family: 3.5 Identification and Authentication
+  name: 3.5.3
+  description: 'Use multifactor authentication [Footnote: Multifactor authentication
+    requires two or more different factors to achieve authentication. The factors
+    include: something you know (e.g., password/PIN); something you have (e.g., cryptographic
+    identification device, token); or something you are (e.g., biometric). The requirement
+    for multifactor authentication should not be interpreted as requiring federal
+    Personal Identity Verification (PIV) card or Department of Defense Common Access
+    Card (CAC)like solutions. A variety of multifactor solutions (including those
+    with replay resistance) using tokens and biometrics are commercially available.
+    Such solutions may employ hard tokens (e.g., smartcards, key fobs, or dongles)
+    or soft tokens to store user credentials.] for local and network access [Footnote:
+    Local access is any access to a system by a user (or process acting on behalf
+    of a user) communicating through a direct connection without the use of a network.
+    Network access is any access to a system by a user (or a process acting on behalf
+    of a user) communicating through a network (e.g., local area network, wide area
+    network, Internet).] to privileged accounts and for network access to non-privileged
+    accounts.'
+3.5.4:
+  family: 3.5 Identification and Authentication
+  name: 3.5.4
+  description: Employ replay-resistant authentication mechanisms for network access
+    to privileged and nonprivileged accounts.
+3.5.5:
+  family: 3.5 Identification and Authentication
+  name: 3.5.5
+  description: Prevent reuse of identifiers for a defined period.
+3.5.6:
+  family: 3.5 Identification and Authentication
+  name: 3.5.6
+  description: Disable identifiers after a defined period of inactivity.
+3.5.7:
+  family: 3.5 Identification and Authentication
+  name: 3.5.7
+  description: Enforce a minimum password complexity and change of characters when
+    new passwords are created.
+3.5.8:
+  family: 3.5 Identification and Authentication
+  name: 3.5.8
+  description: Prohibit password reuse for a specified number of generations.
+3.5.9:
+  family: 3.5 Identification and Authentication
+  name: 3.5.9
+  description: Allow temporary password use for system logons with an immediate change
+    to a permanent password.
+3.5.10:
+  family: 3.5 Identification and Authentication
+  name: 3.5.10
+  description: Store and transmit only cryptographically-protected passwords.
+3.5.11:
+  family: 3.5 Identification and Authentication
+  name: 3.5.11
+  description: Obscure feedback of authentication information.
+3.6.1:
+  family: 3.6 Incident Response
+  name: 3.6.1
+  description: Establish an operational incident-handling capability for organizational
+    systems that includes adequate preparation, detection, analysis, containment,
+    recovery, and user response activities.
+3.6.2:
+  family: 3.6 Incident Response
+  name: 3.6.2
+  description: Track, document, and report incidents to appropriate officials and/or
+    authorities both internal and external to the organization.
+3.6.3:
+  family: 3.6 Incident Response
+  name: 3.6.3
+  description: Test the organizational incident response capability.
+3.7.1:
+  family: 3.7 Maintenance
+  name: 3.7.1
+  description: 'Perform maintenance on organizational systems. [Footnote: In general,
+    system maintenance requirements tend to support the security objective of availability.
+    However, improper system maintenance or a failure to perform maintenance can result
+    in the unauthorized disclosure of CUI, thus compromising confidentiality of that
+    information.]'
+3.7.2:
+  family: 3.7 Maintenance
+  name: 3.7.2
+  description: Provide effective controls on the tools, techniques, mechanisms, and
+    personnel used to conduct system maintenance.
+3.7.3:
+  family: 3.7 Maintenance
+  name: 3.7.3
+  description: Ensure equipment removed for off-site maintenance is sanitized of any
+    CUI.
+3.7.4:
+  family: 3.7 Maintenance
+  name: 3.7.4
+  description: Check media containing diagnostic and test programs for malicious code
+    before the media are used in organizational systems.
+3.7.5:
+  family: 3.7 Maintenance
+  name: 3.7.5
+  description: Require multifactor authentication to establish nonlocal maintenance
+    sessions via external network connections and terminate such connections when
+    nonlocal maintenance is complete.
+3.7.6:
+  family: 3.7 Maintenance
+  name: 3.7.6
+  description: Supervise the maintenance activities of maintenance personnel without
+    required access authorization.
+3.8.1:
+  family: 3.8 Media Protection
+  name: 3.8.1
+  description: Protect (i.e., physically control and securely store) system media
+    containing CUI, both paper and digital.
+3.8.2:
+  family: 3.8 Media Protection
+  name: 3.8.2
+  description: Limit access to CUI on system media to authorized users.
+3.8.3:
+  family: 3.8 Media Protection
+  name: 3.8.3
+  description: Sanitize or destroy system media containing CUI before disposal or
+    release for reuse.
+3.8.4:
+  family: 3.8 Media Protection
+  name: 3.8.4
+  description: 'Mark media with necessary CUI markings and distribution limitations.
+    [Footnote: The implementation of this requirement is per marking guidance in the
+    32 CFR, Part 2002, and the CUI Registry.]'
+3.8.5:
+  family: 3.8 Media Protection
+  name: 3.8.5
+  description: Control access to media containing CUI and maintain accountability
+    for media during transport outside of controlled areas.
+3.8.6:
+  family: 3.8 Media Protection
+  name: 3.8.6
+  description: Implement cryptographic mechanisms to protect the confidentiality of
+    CUI stored on digital media during transport unless otherwise protected by alternative
+    physical safeguards.
+3.8.7:
+  family: 3.8 Media Protection
+  name: 3.8.7
+  description: Control the use of removable media on system components.
+3.8.8:
+  family: 3.8 Media Protection
+  name: 3.8.8
+  description: Prohibit the use of portable storage devices when such devices have
+    no identifiable owner.
+3.8.9:
+  family: 3.8 Media Protection
+  name: 3.8.9
+  description: Protect the confidentiality of backup CUI at storage locations.
+3.9.1:
+  family: 3.9 Personnel Security
+  name: 3.9.1
+  description: Screen individuals prior to authorizing access to organizational systems
+    containing CUI.
+3.9.2:
+  family: 3.9 Personnel Security
+  name: 3.9.2
+  description: Ensure that CUI and organizational systems containing CUI are protected
+    during and after personnel actions such as terminations and transfers.
+3.10.1:
+  family: 3.10 Physical Protection
+  name: 3.10.1
+  description: Limit physical access to organizational systems, equipment, and the
+    respective operating environments to authorized individuals.
+3.10.2:
+  family: 3.10 Physical Protection
+  name: 3.10.2
+  description: Protect and monitor the physical facility and support infrastructure
+    for organizational systems.
+3.10.3:
+  family: 3.10 Physical Protection
+  name: 3.10.3
+  description: Escort visitors and monitor visitor activity.
+3.10.4:
+  family: 3.10 Physical Protection
+  name: 3.10.4
+  description: Maintain audit logs of physical access.
+3.10.5:
+  family: 3.10 Physical Protection
+  name: 3.10.5
+  description: Control and manage physical access devices.
+3.10.6:
+  family: 3.10 Physical Protection
+  name: 3.10.6
+  description: Enforce safeguarding measures for CUI at alternate work sites (e.g.,
+    telework sites).
+3.11.1:
+  family: 3.11 Risk Assessment
+  name: 3.11.1
+  description: Periodically assess the risk to organizational operations (including
+    mission, functions, image, or reputation), organizational assets, and individuals,
+    resulting from the operation of organizational systems and the associated processing,
+    storage, or transmission of CUI.
+3.11.2:
+  family: 3.11 Risk Assessment
+  name: 3.11.2
+  description: Scan for vulnerabilities in organizational systems and applications
+    periodically and when new vulnerabilities affecting those systems and applications
+    are identified.
+3.11.3:
+  family: 3.11 Risk Assessment
+  name: 3.11.3
+  description: Remediate vulnerabilities in accordance with assessments of risk.
+3.12.1:
+  family: 3.12 Security Assessment
+  name: 3.12.1
+  description: Periodically assess the security controls in organizational systems
+    to determine if the controls are effective in their application.
+3.12.2:
+  family: 3.12 Security Assessment
+  name: 3.12.2
+  description: Develop and implement plans of action designed to correct deficiencies
+    and reduce or eliminate vulnerabilities in organizational systems.
+3.12.3:
+  family: 3.12 Security Assessment
+  name: 3.12.3
+  description: Monitor security controls on an ongoing basis to ensure the continued
+    effectiveness of the controls.
+3.12.4:
+  family: 3.12 Security Assessment
+  name: 3.12.4
+  description: 'Develop, document, and periodically update system security plans that
+    describe system boundaries, system environments of operation, how security requirements
+    are implemented, and the relationships with or connections to other systems. [Footnote:
+    There is no prescribed format or specified level of detail for system security
+    plans. However, organizations must ensure that the required information in 3.12.4
+    is appropriately conveyed in those plans.]'
+3.13.1:
+  family: 3.13 System and Communications Protection
+  name: 3.13.1
+  description: Monitor, control, and protect communications (i.e., information transmitted
+    or received by organizational systems) at the external boundaries and key internal
+    boundaries of organizational systems.
+3.13.2:
+  family: 3.13 System and Communications Protection
+  name: 3.13.2
+  description: Employ architectural designs, software development techniques, and
+    systems engineering principles that promote effective information security within
+    organizational systems.
+3.13.3:
+  family: 3.13 System and Communications Protection
+  name: 3.13.3
+  description: Separate user functionality from system management functionality.
+3.13.4:
+  family: 3.13 System and Communications Protection
+  name: 3.13.4
+  description: Prevent unauthorized and unintended information transfer via shared
+    system resources.
+3.13.5:
+  family: 3.13 System and Communications Protection
+  name: 3.13.5
+  description: Implement subnetworks for publicly accessible system components that
+    are physically or logically separated from internal networks.
+3.13.6:
+  family: 3.13 System and Communications Protection
+  name: 3.13.6
+  description: Deny network communications traffic by default and allow network communications
+    traffic by exception (i.e., deny all, permit by exception).
+3.13.7:
+  family: 3.13 System and Communications Protection
+  name: 3.13.7
+  description: Prevent remote devices from simultaneously establishing non-remote
+    connections with organizational systems and communicating via some other connection
+    to resources in external networks.
+3.13.8:
+  family: 3.13 System and Communications Protection
+  name: 3.13.8
+  description: Implement cryptographic mechanisms to prevent unauthorized disclosure
+    of CUI during transmission unless otherwise protected by alternative physical
+    safeguards.
+3.13.9:
+  family: 3.13 System and Communications Protection
+  name: 3.13.9
+  description: Terminate network connections associated with communications sessions
+    at the end of the sessions or after a defined period of inactivity.
+3.13.10:
+  family: 3.13 System and Communications Protection
+  name: 3.13.10
+  description: Establish and manage cryptographic keys for cryptography employed in
+    organizational systems.
+3.13.11:
+  family: 3.13 System and Communications Protection
+  name: 3.13.11
+  description: Employ FIPS-validated cryptography when used to protect the confidentiality
+    of CUI.
+3.13.12:
+  family: 3.13 System and Communications Protection
+  name: 3.13.12
+  description: 'Prohibit remote activation [Footnote: Dedicated video conferencing
+    systems, which rely on one of the participants calling or connecting to the other
+    party to activate the video conference, are excluded.] of collaborative computing
+    devices and provide indication of devices in use to users present at the device.'
+3.13.13:
+  family: 3.13 System and Communications Protection
+  name: 3.13.13
+  description: Control and monitor the use of mobile code.
+3.13.14:
+  family: 3.13 System and Communications Protection
+  name: 3.13.14
+  description: Control and monitor the use of Voice over Internet Protocol (VoIP)
+    technologies.
+3.13.15:
+  family: 3.13 System and Communications Protection
+  name: 3.13.15
+  description: Protect the authenticity of communications sessions.
+3.13.16:
+  family: 3.13 System and Communications Protection
+  name: 3.13.16
+  description: Protect the confidentiality of CUI at rest.
+3.14.1:
+  family: 3.14 System and Information Integrity
+  name: 3.14.1
+  description: Identify, report, and correct information and system flaws in a timely
+    manner.
+3.14.2:
+  family: 3.14 System and Information Integrity
+  name: 3.14.2
+  description: Provide protection from malicious code at appropriate locations within
+    organizational systems.
+3.14.3:
+  family: 3.14 System and Information Integrity
+  name: 3.14.3
+  description: Monitor system security alerts and advisories and take appropriate
+    actions in response.
+3.14.4:
+  family: 3.14 System and Information Integrity
+  name: 3.14.4
+  description: Update malicious code protection mechanisms when new releases are available.
+3.14.5:
+  family: 3.14 System and Information Integrity
+  name: 3.14.5
+  description: Perform periodic scans of organizational systems and real-time scans
+    of files from external sources as files are downloaded, opened, or executed.
+3.14.6:
+  family: 3.14 System and Information Integrity
+  name: 3.14.6
+  description: Monitor organizational systems including inbound and outbound communications
+    traffic, to detect attacks and indicators of potential attacks.
+3.14.7:
+  family: 3.14 System and Information Integrity
+  name: 3.14.7
+  description: Identify unauthorized use of organizational systems.
