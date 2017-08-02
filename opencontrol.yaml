@@ -6,3 +6,5 @@ metadata:
     - joshtauberer@govready.com
 standards:
   - ./NIST-800-171r1.yaml
+certifications:
+  - ./NIST-800-171r1_all.yaml
