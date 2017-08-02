@@ -1,138 +1,138 @@
 name: NIST-800-171r1
 3.1.1:
   family: 3.1 Access Control
-  name: 3.1.1
+  name: "[Limit system access to authorized users]"
   description: Limit system access to authorized users, processes acting on behalf
     of authorized users, or devices (including other systems).
 3.1.2:
   family: 3.1 Access Control
-  name: 3.1.2
+  name: "[Limit system access to authorized functions]"
   description: Limit system access to the types of transactions and functions that
     authorized users are permitted to execute.
 3.1.3:
   family: 3.1 Access Control
-  name: 3.1.3
+  name: "[Control the flow of CUI]"
   description: Control the flow of CUI in accordance with approved authorizations.
 3.1.4:
   family: 3.1 Access Control
-  name: 3.1.4
+  name: "[Separation of duties]"
   description: Separate the duties of individuals to reduce the risk of malevolent
     activity without collusion.
 3.1.5:
   family: 3.1 Access Control
-  name: 3.1.5
+  name: "[Principle of least privilege]"
   description: Employ the principle of least privilege, including for specific security
     functions and privileged accounts.
 3.1.6:
   family: 3.1 Access Control
-  name: 3.1.6
+  name: "[Use non-privileged accounts]"
   description: Use non-privileged accounts or roles when accessing nonsecurity functions.
 3.1.7:
   family: 3.1 Access Control
-  name: 3.1.7
+  name: "[Executing privileged functions]"
   description: Prevent non-privileged users from executing privileged functions and
     audit the execution of such functions.
 3.1.8:
   family: 3.1 Access Control
-  name: 3.1.8
+  name: "[Limit unsuccessful logon attempts]"
   description: Limit unsuccessful logon attempts.
 3.1.9:
   family: 3.1 Access Control
-  name: 3.1.9
+  name: "[Privacy and security notices]"
   description: Provide privacy and security notices consistent with applicable CUI
     rules.
 3.1.10:
   family: 3.1 Access Control
-  name: 3.1.10
+  name: "[Session lock with pattern-hiding]"
   description: Use session lock with pattern-hiding displays to prevent access and
     viewing of data after period of inactivity.
 3.1.11:
   family: 3.1 Access Control
-  name: 3.1.11
+  name: "[Terminate sessions]"
   description: Terminate (automatically) a user session after a defined condition.
 3.1.12:
   family: 3.1 Access Control
-  name: 3.1.12
+  name: "[Monitor and control remote access sessions]"
   description: Monitor and control remote access sessions.
 3.1.13:
   family: 3.1 Access Control
-  name: 3.1.13
+  name: "[Cryptographic mechanisms for remote access]"
   description: Employ cryptographic mechanisms to protect the confidentiality of remote
     access sessions.
 3.1.14:
   family: 3.1 Access Control
-  name: 3.1.14
+  name: "[Route remote access via managed access control points]"
   description: Route remote access via managed access control points.
 3.1.15:
   family: 3.1 Access Control
-  name: 3.1.15
+  name: "[Authorize remote execution and access]"
   description: Authorize remote execution of privileged commands and remote access
     to security-relevant information.
 3.1.16:
   family: 3.1 Access Control
-  name: 3.1.16
+  name: "[Authorize wireless access]"
   description: Authorize wireless access prior to allowing such connections.
 3.1.17:
   family: 3.1 Access Control
-  name: 3.1.17
+  name: "[Protect wireless access]"
   description: Protect wireless access using authentication and encryption.
 3.1.18:
   family: 3.1 Access Control
-  name: 3.1.18
+  name: "[Control connection of mobile devices]"
   description: Control connection of mobile devices.
 3.1.19:
   family: 3.1 Access Control
-  name: 3.1.19
+  name: "[Encrypt CUI]"
   description: 'Encrypt CUI on mobile devices and mobile computing platforms. [Footnote:
     Mobile devices and mobile computing platforms include, for example, smartphones,
     tablets, E-readers, and notebook computers.]'
 3.1.20:
   family: 3.1 Access Control
-  name: 3.1.20
+  name: "[External systems]"
   description: Verify and control/limit connections to and use of external systems.
 3.1.21:
   family: 3.1 Access Control
-  name: 3.1.21
+  name: "[Portable storage devices]"
   description: Limit use of organizational portable storage devices on external systems.
 3.1.22:
   family: 3.1 Access Control
-  name: 3.1.22
+  name: "[Publicly accessible systems]"
   description: Control CUI posted or processed on publicly accessible systems.
 3.2.1:
   family: 3.2 Awareness and Training
-  name: 3.2.1
+  name: "[Awareness of the security risks]"
   description: Ensure that managers, systems administrators, and users of organizational
     systems are made aware of the security risks associated with their activities
     and of the applicable policies, standards, and procedures related to the security
     of those systems.
 3.2.2:
   family: 3.2 Awareness and Training
-  name: 3.2.2
+  name: "[Information security training]"
   description: Ensure that organizational personnel are adequately trained to carry
     out their assigned information security-related duties and responsibilities.
 3.2.3:
   family: 3.2 Awareness and Training
-  name: 3.2.3
+  name: "[Insider threat training]"
   description: Provide security awareness training on recognizing and reporting potential
     indicators of insider threat.
 3.3.1:
   family: 3.3 Audit and Accountability
-  name: 3.3.1
+  name: "[System audit records]"
   description: Create, protect, and retain system audit records to the extent needed
     to enable the monitoring, analysis, investigation, and reporting of unlawful,
     unauthorized, or inappropriate system activity.
 3.3.2:
   family: 3.3 Audit and Accountability
-  name: 3.3.2
+  name: "[Actions uniquely traced to individual users]"
   description: Ensure that the actions of individual system users can be uniquely
     traced to those users so they can be held accountable for their actions.
 3.3.3:
   family: 3.3 Audit and Accountability
-  name: 3.3.3
+  name: "[Audited events]"
   description: Review and update audited events.
 3.3.4:
   family: 3.3 Audit and Accountability
-  name: 3.3.4
+  name: "[Audit process failure alerts]"
   description: Alert in the event of an audit process failure.
 3.3.5:
   family: 3.3 Audit and Accountability
