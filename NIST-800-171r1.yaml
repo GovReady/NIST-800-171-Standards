@@ -48,7 +48,7 @@ name: NIST-800-171r1
     viewing of data after period of inactivity.
 3.1.11:
   family: 3.1 Access Control
-  name: "[Terminate sessions]"
+  name: "[Terminate user sessions]"
   description: Terminate (automatically) a user session after a defined condition.
 3.1.12:
   family: 3.1 Access Control
@@ -82,7 +82,7 @@ name: NIST-800-171r1
   description: Control connection of mobile devices.
 3.1.19:
   family: 3.1 Access Control
-  name: "[Encrypt CUI]"
+  name: "[Encrypt CUI on mobile devices]"
   description: 'Encrypt CUI on mobile devices and mobile computing platforms. [Footnote:
     Mobile devices and mobile computing platforms include, for example, smartphones,
     tablets, E-readers, and notebook computers.]'
@@ -136,85 +136,85 @@ name: NIST-800-171r1
   description: Alert in the event of an audit process failure.
 3.3.5:
   family: 3.3 Audit and Accountability
-  name: 3.3.5
+  name: "[Correlate for investigation and response]"
   description: Correlate audit review, analysis, and reporting processes for investigation
     and response to indications of inappropriate, suspicious, or unusual activity.
 3.3.6:
   family: 3.3 Audit and Accountability
-  name: 3.3.6
+  name: "[Audit reduction and report generation]"
   description: Provide audit reduction and report generation to support on-demand
     analysis and reporting.
 3.3.7:
   family: 3.3 Audit and Accountability
-  name: 3.3.7
+  name: "[System clocks]"
   description: Provide a system capability that compares and synchronizes internal
     system clocks with an authoritative source to generate time stamps for audit records.
 3.3.8:
   family: 3.3 Audit and Accountability
-  name: 3.3.8
+  name: "[Protect audit information and tools]"
   description: Protect audit information and audit tools from unauthorized access,
     modification, and deletion.
 3.3.9:
   family: 3.3 Audit and Accountability
-  name: 3.3.9
+  name: "[Limit management of audit functionality]"
   description: Limit management of audit functionality to a subset of privileged users.
 3.4.1:
   family: 3.4 Configuration Management
-  name: 3.4.1
+  name: "[Baseline configurations and inventories]"
   description: Establish and maintain baseline configurations and inventories of organizational
     systems (including hardware, software, firmware, and documentation) throughout
     the respective system development life cycles.
 3.4.2:
   family: 3.4 Configuration Management
-  name: 3.4.2
+  name: "[Enforce security configuration settings]"
   description: Establish and enforce security configuration settings for information
     technology products employed in organizational systems.
 3.4.3:
   family: 3.4 Configuration Management
-  name: 3.4.3
+  name: "[Track changes to organizational systems]"
   description: Track, review, approve/disapprove, and audit changes to organizational
     systems.
 3.4.4:
   family: 3.4 Configuration Management
-  name: 3.4.4
+  name: "[Analyze changes prior to implementation]"
   description: Analyze the security impact of changes prior to implementation.
 3.4.5:
   family: 3.4 Configuration Management
-  name: 3.4.5
+  name: "[Access restrictions for changes to systems]"
   description: Define, document, approve, and enforce physical and logical access
     restrictions associated with changes to organizational systems.
 3.4.6:
   family: 3.4 Configuration Management
-  name: 3.4.6
+  name: "[Principle of least functionality]"
   description: Employ the principle of least functionality by configuring organizational
     systems to provide only essential capabilities.
 3.4.7:
   family: 3.4 Configuration Management
-  name: 3.4.7
+  name: "[Disable nonessential functions]"
   description: Restrict, disable, and prevent the use of nonessential programs, functions,
     ports, protocols, and services.
 3.4.8:
   family: 3.4 Configuration Management
-  name: 3.4.8
+  name: "[Deny-by-exception]"
   description: Apply deny-by-exception (blacklist) policy to prevent the use of unauthorized
     software or denyall, permit-by-exception (whitelisting) policy to allow the execution
     of authorized software.
 3.4.9:
   family: 3.4 Configuration Management
-  name: 3.4.9
+  name: "[User-installed software]"
   description: Control and monitor user-installed software.
 3.5.1:
   family: 3.5 Identification and Authentication
-  name: 3.5.1
+  name: "[Identify users]"
   description: Identify system users, processes acting on behalf of users, or devices.
 3.5.2:
   family: 3.5 Identification and Authentication
-  name: 3.5.2
+  name: "[Authenticate users, processes, or devices]"
   description: Authenticate (or verify) the identities of those users, processes,
     or devices, as a prerequisite to allowing access to organizational systems.
 3.5.3:
   family: 3.5 Identification and Authentication
-  name: 3.5.3
+  name: "[Use multifactor authentication]"
   description: 'Use multifactor authentication [Footnote: Multifactor authentication
     requires two or more different factors to achieve authentication. The factors
     include: something you know (e.g., password/PIN); something you have (e.g., cryptographic
@@ -482,7 +482,7 @@ name: NIST-800-171r1
     safeguards.
 3.13.9:
   family: 3.13 System and Communications Protection
-  name: 3.13.9
+  name: "[Terminate network connections]"
   description: Terminate network connections associated with communications sessions
     at the end of the sessions or after a defined period of inactivity.
 3.13.10:
