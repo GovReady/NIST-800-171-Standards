@@ -3,7 +3,7 @@ name: NIST-800-171r1
   family: 3.1 Access Control
   name: '[Limit system access to authorized users]'
   description: Limit system access to authorized users, processes acting on behalf
-    of authorized users, or devices (including other systems).
+    of authorized users, and devices (including other systems).
 3.1.2:
   family: 3.1 Access Control
   name: '[Limit system access to authorized functions]'
@@ -31,7 +31,7 @@ name: NIST-800-171r1
   family: 3.1 Access Control
   name: '[Executing privileged functions]'
   description: Prevent non-privileged users from executing privileged functions and
-    audit the execution of such functions.
+    capture the execution of such functions in audit logs.
 3.1.8:
   family: 3.1 Access Control
   name: '[Limit unsuccessful logon attempts]'
@@ -45,7 +45,7 @@ name: NIST-800-171r1
   family: 3.1 Access Control
   name: '[Session lock with pattern-hiding]'
   description: Use session lock with pattern-hiding displays to prevent access and
-    viewing of data after period of inactivity.
+    viewing of data after a period of inactivity.
 3.1.11:
   family: 3.1 Access Control
   name: '[Terminate user sessions]'
@@ -118,9 +118,9 @@ name: NIST-800-171r1
 3.3.1:
   family: 3.3 Audit and Accountability
   name: '[System audit records]'
-  description: Create, protect, and retain system audit records to the extent needed
-    to enable the monitoring, analysis, investigation, and reporting of unlawful,
-    unauthorized, or inappropriate system activity.
+  description: Create and retain system audit logs and records to the extent needed
+    to enable the monitoring, analysis, investigation, and reporting of unlawful or
+    unauthorized system activity.
 3.3.2:
   family: 3.3 Audit and Accountability
   name: '[Actions uniquely traced to individual users]'
@@ -129,20 +129,21 @@ name: NIST-800-171r1
 3.3.3:
   family: 3.3 Audit and Accountability
   name: '[Audited events]'
-  description: Review and update audited events.
+  description: Review and update logged events.
 3.3.4:
   family: 3.3 Audit and Accountability
   name: '[Audit process failure alerts]'
-  description: Alert in the event of an audit process failure.
+  description: Alert in the event of an audit logging process failure.
 3.3.5:
   family: 3.3 Audit and Accountability
   name: '[Correlate for investigation and response]'
-  description: Correlate audit review, analysis, and reporting processes for investigation
-    and response to indications of inappropriate, suspicious, or unusual activity.
+  description: Correlate audit record review, analysis, and reporting processes for
+    investigation and response to indications of unlawful, unauthorized, suspicious,
+    or unusual activity.
 3.3.6:
   family: 3.3 Audit and Accountability
   name: '[Audit reduction and report generation]'
-  description: Provide audit reduction and report generation to support on-demand
+  description: Provide audit record reduction and report generation to support on-demand
     analysis and reporting.
 3.3.7:
   family: 3.3 Audit and Accountability
@@ -152,12 +153,13 @@ name: NIST-800-171r1
 3.3.8:
   family: 3.3 Audit and Accountability
   name: '[Protect audit information and tools]'
-  description: Protect audit information and audit tools from unauthorized access,
-    modification, and deletion.
+  description: Protect audit information and audit logging tools from unauthorized
+    access, modification, and deletion.
 3.3.9:
   family: 3.3 Audit and Accountability
   name: '[Limit management of audit functionality]'
-  description: Limit management of audit functionality to a subset of privileged users.
+  description: Limit management of audit logging functionality to a subset of privileged
+    users.
 3.4.1:
   family: 3.4 Configuration Management
   name: '[Baseline configurations and inventories]'
@@ -172,7 +174,7 @@ name: NIST-800-171r1
 3.4.3:
   family: 3.4 Configuration Management
   name: '[Track changes to organizational systems]'
-  description: Track, review, approve/disapprove, and audit changes to organizational
+  description: Track, review, approve or disapprove, and log changes to organizational
     systems.
 3.4.4:
   family: 3.4 Configuration Management
@@ -191,14 +193,14 @@ name: NIST-800-171r1
 3.4.7:
   family: 3.4 Configuration Management
   name: '[Disable nonessential functions]'
-  description: Restrict, disable, and prevent the use of nonessential programs, functions,
+  description: Restrict, disable, or prevent the use of nonessential programs, functions,
     ports, protocols, and services.
 3.4.8:
   family: 3.4 Configuration Management
   name: '[Deny-by-exception]'
-  description: Apply deny-by-exception (blacklist) policy to prevent the use of unauthorized
-    software or denyall, permit-by-exception (whitelisting) policy to allow the execution
-    of authorized software.
+  description: Apply deny-by-exception (blacklisting) policy to prevent the use of
+    unauthorized software or deny-all, permit-by-exception (whitelisting) policy to
+    allow the execution of authorized software.
 3.4.9:
   family: 3.4 Configuration Management
   name: '[User-installed software]'
@@ -206,12 +208,12 @@ name: NIST-800-171r1
 3.5.1:
   family: 3.5 Identification and Authentication
   name: '[Identify users]'
-  description: Identify system users, processes acting on behalf of users, or devices.
+  description: Identify system users, processes acting on behalf of users, and devices.
 3.5.2:
   family: 3.5 Identification and Authentication
   name: '[Authenticate users, processes, or devices]'
-  description: Authenticate (or verify) the identities of those users, processes,
-    or devices, as a prerequisite to allowing access to organizational systems.
+  description: Authenticate (or verify) the identities of users, processes, or devices,
+    as a prerequisite to allowing access to organizational systems.
 3.5.3:
   family: 3.5 Identification and Authentication
   name: '[Use multifactor authentication]'
@@ -270,12 +272,12 @@ name: NIST-800-171r1
   family: 3.6 Incident Response
   name: '[Incident-handling capability]'
   description: Establish an operational incident-handling capability for organizational
-    systems that includes adequate preparation, detection, analysis, containment,
-    recovery, and user response activities.
+    systems that includes preparation, detection, analysis, containment, recovery,
+    and user response activities.
 3.6.2:
   family: 3.6 Incident Response
   name: '[Track and report incidents]'
-  description: Track, document, and report incidents to appropriate officials and/or
+  description: Track, document, and report incidents to designated officials and/or
     authorities both internal and external to the organization.
 3.6.3:
   family: 3.6 Incident Response
@@ -292,8 +294,8 @@ name: NIST-800-171r1
 3.7.2:
   family: 3.7 Maintenance
   name: '[Provide controls for maintenance]'
-  description: Provide effective controls on the tools, techniques, mechanisms, and
-    personnel used to conduct system maintenance.
+  description: Provide controls on the tools, techniques, mechanisms, and personnel
+    used to conduct system maintenance.
 3.7.3:
   family: 3.7 Maintenance
   name: '[Sanitize equipment removed for off-site maintenance]'
@@ -367,8 +369,8 @@ name: NIST-800-171r1
 3.9.2:
   family: 3.9 Personnel Security
   name: '[Termination and transfers]'
-  description: Ensure that CUI and organizational systems containing CUI are protected
-    during and after personnel actions such as terminations and transfers.
+  description: Ensure that organizational systems containing CUI are protected during
+    and after personnel actions such as terminations and transfers.
 3.10.1:
   family: 3.10 Physical Protection
   name: '[Limit physical access]'
@@ -394,8 +396,7 @@ name: NIST-800-171r1
 3.10.6:
   family: 3.10 Physical Protection
   name: '[Alternate work sites]'
-  description: Enforce safeguarding measures for CUI at alternate work sites (e.g.,
-    telework sites).
+  description: Enforce safeguarding measures for CUI at alternate work sites.
 3.11.1:
   family: 3.11 Risk Assessment
   name: '[Assess risk]'
@@ -412,7 +413,7 @@ name: NIST-800-171r1
 3.11.3:
   family: 3.11 Risk Assessment
   name: '[Remediate vulnerabilities]'
-  description: Remediate vulnerabilities in accordance with assessments of risk.
+  description: Remediate vulnerabilities in accordance with risk assessments.
 3.12.1:
   family: 3.12 Security Assessment
   name: '[Assess the security controls]'
@@ -435,8 +436,8 @@ name: NIST-800-171r1
     describe system boundaries, system environments of operation, how security requirements
     are implemented, and the relationships with or connections to other systems. [Footnote:
     There is no prescribed format or specified level of detail for system security
-    plans. However, organizations must ensure that the required information in 3.12.4
-    is appropriately conveyed in those plans.]'
+    plans. However, organizations ensure that the required information in 3.12.4 is
+    conveyed in those plans.]'
 3.13.1:
   family: 3.13 System and Communications Protection
   name: '[Communications boundaries]'
@@ -473,7 +474,7 @@ name: NIST-800-171r1
   name: '[Prevent split tunneling]'
   description: Prevent remote devices from simultaneously establishing non-remote
     connections with organizational systems and communicating via some other connection
-    to resources in external networks.
+    to resources in external networks (i.e., split tunneling).
 3.13.8:
   family: 3.13 System and Communications Protection
   name: '[Cryptographic mechanisms in transmission]'
@@ -522,18 +523,16 @@ name: NIST-800-171r1
 3.14.1:
   family: 3.14 System and Information Integrity
   name: '[Identify, report, and correct flaws]'
-  description: Identify, report, and correct information and system flaws in a timely
-    manner.
+  description: Identify, report, and correct system flaws in a timely manner.
 3.14.2:
   family: 3.14 System and Information Integrity
   name: '[Malicious code]'
-  description: Provide protection from malicious code at appropriate locations within
+  description: Provide protection from malicious code at designated locations within
     organizational systems.
 3.14.3:
   family: 3.14 System and Information Integrity
   name: '[Monitor alerts and advisories]'
-  description: Monitor system security alerts and advisories and take appropriate
-    actions in response.
+  description: Monitor system security alerts and advisories and take action in response.
 3.14.4:
   family: 3.14 System and Information Integrity
   name: '[Update malicious code protection mechanisms]'
@@ -546,7 +545,7 @@ name: NIST-800-171r1
 3.14.6:
   family: 3.14 System and Information Integrity
   name: '[Detect attacks and indicators of potential attacks]'
-  description: Monitor organizational systems including inbound and outbound communications
+  description: Monitor organizational systems, including inbound and outbound communications
     traffic, to detect attacks and indicators of potential attacks.
 3.14.7:
   family: 3.14 System and Information Integrity
